@@ -1,0 +1,144 @@
+2020-11-24 02:59:11.220  INFO 20164 --- [restartedMain] t.e.spring.Tp1SpringDataJpaApplication   : Starting Tp1SpringDataJpaApplication on DESKTOP-G521T1O with PID 20164 (C:\Users\Meriem\Documents\workspace-sts-3.8.4.RELEASE\TP1_SpringDataJPA\target\classes started by Meriem in C:\Users\Meriem\Documents\workspace-sts-3.8.4.RELEASE\TP1_SpringDataJPA)
+2020-11-24 02:59:11.226  INFO 20164 --- [restartedMain] t.e.spring.Tp1SpringDataJpaApplication   : No active profile set, falling back to default profiles: default
+2020-11-24 02:59:11.293  INFO 20164 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-24 02:59:11.294  INFO 20164 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-24 02:59:11.875  INFO 20164 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-11-24 02:59:11.953  INFO 20164 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66ms. Found 1 JPA repository interfaces.
+2020-11-24 02:59:12.922  INFO 20164 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-24 02:59:12.931  INFO 20164 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-24 02:59:12.931  INFO 20164 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-24 02:59:13.027  INFO 20164 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-24 02:59:13.027  INFO 20164 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1733 ms
+2020-11-24 02:59:13.224  INFO 20164 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-24 02:59:13.282  INFO 20164 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.22.Final
+2020-11-24 02:59:13.451  INFO 20164 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-11-24 02:59:13.558  INFO 20164 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-24 02:59:13.784  INFO 20164 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-24 02:59:13.799  INFO 20164 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-11-24 02:59:14.380  INFO 20164 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-24 02:59:14.385  INFO 20164 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-11-24 02:59:14.402  INFO 20164 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-24 02:59:14.894  WARN 20164 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-24 02:59:15.063  INFO 20164 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-24 02:59:15.501  INFO 20164 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-24 02:59:15.503  INFO 20164 --- [restartedMain] t.e.spring.Tp1SpringDataJpaApplication   : Started Tp1SpringDataJpaApplication in 4.597 seconds (JVM running for 5.566)
+2020-11-24 03:01:37.478  INFO 20164 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-24 03:01:37.480  INFO 20164 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-11-24 03:01:37.482  INFO 20164 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-11-24 03:01:37.535  INFO 20164 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-11-24 03:01:38.272  INFO 20164 --- [restartedMain] t.e.spring.Tp1SpringDataJpaApplication   : Starting Tp1SpringDataJpaApplication on DESKTOP-G521T1O with PID 20164 (C:\Users\Meriem\Documents\workspace-sts-3.8.4.RELEASE\TP1_SpringDataJPA\target\classes started by Meriem in C:\Users\Meriem\Documents\workspace-sts-3.8.4.RELEASE\TP1_SpringDataJPA)
+2020-11-24 03:01:38.273  INFO 20164 --- [restartedMain] t.e.spring.Tp1SpringDataJpaApplication   : No active profile set, falling back to default profiles: default
+2020-11-24 03:01:38.550  INFO 20164 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-11-24 03:01:38.562  INFO 20164 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 1 JPA repository interfaces.
+2020-11-24 03:01:38.729  INFO 20164 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-24 03:01:38.730  INFO 20164 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-24 03:01:38.730  INFO 20164 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-24 03:01:38.745  INFO 20164 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-24 03:01:38.745  INFO 20164 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 469 ms
+2020-11-24 03:01:38.786  INFO 20164 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-24 03:01:38.789  INFO 20164 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-11-24 03:01:38.793  INFO 20164 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-11-24 03:01:38.793  INFO 20164 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-11-24 03:01:38.876  INFO 20164 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-24 03:01:38.877  INFO 20164 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-11-24 03:01:38.881  INFO 20164 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-24 03:01:38.962  WARN 20164 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-24 03:01:39.003  INFO 20164 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-24 03:01:39.074  INFO 20164 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-24 03:01:39.075  INFO 20164 --- [restartedMain] t.e.spring.Tp1SpringDataJpaApplication   : Started Tp1SpringDataJpaApplication in 0.884 seconds (JVM running for 149.136)
+2020-11-24 03:01:39.077  INFO 20164 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-11-24 03:01:51.566  INFO 20164 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-24 03:01:51.569  INFO 20164 --- [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-11-24 03:01:51.570  INFO 20164 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-11-24 03:01:51.574  INFO 20164 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2020-11-24 03:01:51.964  INFO 20164 --- [restartedMain] t.e.spring.Tp1SpringDataJpaApplication   : Starting Tp1SpringDataJpaApplication on DESKTOP-G521T1O with PID 20164 (C:\Users\Meriem\Documents\workspace-sts-3.8.4.RELEASE\TP1_SpringDataJPA\target\classes started by Meriem in C:\Users\Meriem\Documents\workspace-sts-3.8.4.RELEASE\TP1_SpringDataJPA)
+2020-11-24 03:01:51.964  INFO 20164 --- [restartedMain] t.e.spring.Tp1SpringDataJpaApplication   : No active profile set, falling back to default profiles: default
+2020-11-24 03:01:52.141  INFO 20164 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-11-24 03:01:52.152  INFO 20164 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 1 JPA repository interfaces.
+2020-11-24 03:01:52.246  INFO 20164 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-24 03:01:52.247  INFO 20164 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-24 03:01:52.247  INFO 20164 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-24 03:01:52.273  INFO 20164 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2020-11-24 03:01:52.273  INFO 20164 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 305 ms
+2020-11-24 03:01:52.302  INFO 20164 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-24 03:01:52.306  INFO 20164 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2020-11-24 03:01:52.309  INFO 20164 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2020-11-24 03:01:52.309  INFO 20164 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-11-24 03:01:52.993  INFO 20164 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-24 03:01:52.993  INFO 20164 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-11-24 03:01:53.000  INFO 20164 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-24 03:01:53.069  WARN 20164 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-24 03:01:53.105  INFO 20164 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-24 03:01:53.176  INFO 20164 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/SpringMVC'
+2020-11-24 03:01:53.177  INFO 20164 --- [restartedMain] t.e.spring.Tp1SpringDataJpaApplication   : Started Tp1SpringDataJpaApplication in 1.238 seconds (JVM running for 163.238)
+2020-11-24 03:01:53.178  INFO 20164 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-11-24 03:01:53.397  INFO 20164 --- [http-nio-8081-exec-1] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-24 03:01:53.397  INFO 20164 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-24 03:01:53.409  INFO 20164 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2020-11-24 03:03:02.021  WARN 20164 --- [http-nio-8081-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-11-24 03:03:31.548  INFO 20164 --- [http-nio-8081-exec-8] t.esprit.spring.service.UserServiceImpl  : user : User [id=1, firstName=meriem, lastName=bader, role=INGENIEUR, date=1907-05-09 00:00:00.0]
+2020-11-24 03:03:31.549  INFO 20164 --- [http-nio-8081-exec-8] t.esprit.spring.service.UserServiceImpl  : user : User [id=3, firstName=bechir, lastName=bader, role=INGENIEUR, date=1957-05-09 00:00:00.0]
+2020-11-24 03:03:31.549  INFO 20164 --- [http-nio-8081-exec-8] t.esprit.spring.service.UserServiceImpl  : user : User [id=5, firstName=bechir, lastName=bader, role=INGENIEUR, date=1957-05-09 00:00:00.0]
+2020-11-24 03:03:31.549  INFO 20164 --- [http-nio-8081-exec-8] t.esprit.spring.service.UserServiceImpl  : user : User [id=6, firstName=bechir, lastName=bader, role=INGENIEUR, date=1957-05-09 00:00:00.0]
+2020-11-24 03:03:31.549  INFO 20164 --- [http-nio-8081-exec-8] t.esprit.spring.service.UserServiceImpl  : user : User [id=7, firstName=bechir, lastName=bader, role=INGENIEUR, date=1957-05-09 00:00:00.0]
+2020-11-24 03:07:32.630  INFO 13444 --- [restartedMain] t.e.spring.Tp1SpringDataJpaApplication   : Starting Tp1SpringDataJpaApplication on DESKTOP-G521T1O with PID 13444 (C:\Users\Meriem\Documents\workspace-sts-3.8.4.RELEASE\TP1_SpringDataJPA\target\classes started by Meriem in C:\Users\Meriem\Documents\workspace-sts-3.8.4.RELEASE\TP1_SpringDataJPA)
+2020-11-24 03:07:32.634  INFO 13444 --- [restartedMain] t.e.spring.Tp1SpringDataJpaApplication   : No active profile set, falling back to default profiles: default
+2020-11-24 03:07:32.699  INFO 13444 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-24 03:07:32.699  INFO 13444 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-24 03:07:33.578  INFO 13444 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-11-24 03:07:33.672  INFO 13444 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80ms. Found 1 JPA repository interfaces.
+2020-11-24 03:07:34.307  INFO 13444 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-24 03:07:34.314  INFO 13444 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-24 03:07:34.315  INFO 13444 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-24 03:07:34.398  INFO 13444 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2020-11-24 03:07:34.398  INFO 13444 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1699 ms
+2020-11-24 03:07:34.610  INFO 13444 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-24 03:07:34.669  INFO 13444 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.22.Final
+2020-11-24 03:07:34.807  INFO 13444 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-11-24 03:07:34.889  INFO 13444 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-24 03:07:35.081  INFO 13444 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-24 03:07:35.098  INFO 13444 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-11-24 03:07:35.672  INFO 13444 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-24 03:07:35.680  INFO 13444 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-11-24 03:07:35.692  WARN 13444 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-11-24 03:07:35.932  WARN 13444 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-24 03:07:36.049  INFO 13444 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-24 03:07:36.254  INFO 13444 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-11-24 03:07:36.260  INFO 13444 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-24 03:07:36.262 ERROR 13444 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2020-11-24 03:07:36.265  INFO 13444 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-24 03:07:36.265  INFO 13444 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-11-24 03:07:36.269  INFO 13444 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-11-24 03:07:36.276  INFO 13444 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-11-24 03:08:17.850  INFO 20164 --- [http-nio-8081-exec-8] t.esprit.spring.service.UserServiceImpl  : user returned :User [id=3, firstName=bechir, lastName=bader, role=INGENIEUR, date=1957-05-09 00:00:00.0]
+2020-11-24 03:10:32.087  WARN 20164 --- [http-nio-8081-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-11-24 03:11:19.099  WARN 20164 --- [http-nio-8081-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-11-24 03:11:29.466  INFO 20164 --- [http-nio-8081-exec-2] t.esprit.spring.service.UserServiceImpl  : user : User [id=1, firstName=meriem, lastName=bader, role=INGENIEUR, date=1907-05-09 00:00:00.0]
+2020-11-24 03:11:29.466  INFO 20164 --- [http-nio-8081-exec-2] t.esprit.spring.service.UserServiceImpl  : user : User [id=3, firstName=bechir, lastName=bader, role=INGENIEUR, date=1957-05-09 00:00:00.0]
+2020-11-24 03:11:29.466  INFO 20164 --- [http-nio-8081-exec-2] t.esprit.spring.service.UserServiceImpl  : user : User [id=5, firstName=bechir, lastName=bader, role=INGENIEUR, date=1957-05-09 00:00:00.0]
+2020-11-24 03:11:29.467  INFO 20164 --- [http-nio-8081-exec-2] t.esprit.spring.service.UserServiceImpl  : user : User [id=6, firstName=bechir, lastName=bader, role=INGENIEUR, date=1957-05-09 00:00:00.0]
+2020-11-24 03:11:29.467  INFO 20164 --- [http-nio-8081-exec-2] t.esprit.spring.service.UserServiceImpl  : user : User [id=7, firstName=bechir, lastName=bader, role=INGENIEUR, date=1957-05-09 00:00:00.0]
+2020-11-24 03:14:00.974  WARN 20164 --- [http-nio-8081-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-11-24 03:16:54.604  WARN 20164 --- [http-nio-8081-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' not supported]
+2020-11-24 03:16:59.655  INFO 20164 --- [http-nio-8081-exec-4] t.esprit.spring.service.UserServiceImpl  : user : User [id=1, firstName=meriem, lastName=bader, role=INGENIEUR, date=1907-05-09 00:00:00.0]
+2020-11-24 03:16:59.656  INFO 20164 --- [http-nio-8081-exec-4] t.esprit.spring.service.UserServiceImpl  : user : User [id=5, firstName=bechir, lastName=bader, role=INGENIEUR, date=1957-05-09 00:00:00.0]
+2020-11-24 03:16:59.656  INFO 20164 --- [http-nio-8081-exec-4] t.esprit.spring.service.UserServiceImpl  : user : User [id=6, firstName=bechir, lastName=bader, role=INGENIEUR, date=1957-05-09 00:00:00.0]
+2020-11-24 03:16:59.656  INFO 20164 --- [http-nio-8081-exec-4] t.esprit.spring.service.UserServiceImpl  : user : User [id=7, firstName=bechir, lastName=bader, role=INGENIEUR, date=1957-05-09 00:00:00.0]
+2020-11-24 03:16:59.656  INFO 20164 --- [http-nio-8081-exec-4] t.esprit.spring.service.UserServiceImpl  : user : User [id=8, firstName=Ghassen, lastName=Hamouda, role=ADMINISTRATEUR, date=1111-05-09 00:00:00.0]
+2020-11-24 03:18:17.859  WARN 20164 --- [http-nio-8081-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-11-24 03:18:28.534  WARN 20164 --- [http-nio-8081-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
